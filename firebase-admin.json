@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "korean-food-merchandise",
+    "private_key_id": "0fdccc850c73005da0a6e1c76135212c500fe718",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC2w5WLbN/O0Y1l\nOGHMZGy5x4EGp0NuS8SYr8WwN3GjYgTAcx+e3huJjm6ctML3MPqq7Mza3vM5xjSA\nIY0Ya5S4oKF6aCmQKQWwJmrS2xWZ6R0MAiZxKzIyUygZP84kMfYH28JCZwz/8G9e\nc0XsyaAeFK5LSnP7iSZVBwjHLQcCZZvXOeSTwHLzNiptE703DG9M9C6IM+IsRVyJ\nRcdoqeD9kF6gM/3rgTRBjVvk/aWxobIuJbJub3WFyFcRjRqpIaNc6TKZQEWGw+Db\nSy8K1z+D29BGyzY3fSj7IVmgNM8pTxBl0y0Nzh6Yy4ORBMbAUNAjLvlIGjNgPs7C\n8wA872T5AgMBAAECggEABNo0gjslxgvyQRm6Hv8bk+MkHdUbCTahxZwFF6ShM8FK\ndwGXeVRUTtalQSvbcUyvmxImbjk1I/eLNUuuv1M745sALovNbrJoIEEk3OxMKoXx\n63uzIZYQAx4KFoGHK5bX/WVsRu8NfU4Y5t0QojTIN4Q9DGqxoaAGkINbTE55vSqB\n6aUPW+HE14U12O97gVMEZMY+g1rPfmrCSkaO7rE9pYbfNCtAHwwWxv00l8sictIf\nYL81ojgOtISMYdhVFCwdFIVQyDHTfAlhHYFudNZRYxu5rzrfUcaoLAX7/vuvwWTS\n0d/z26l3afNO/MzrVU2wzK+5CGmis7exE6jiVmn0AQKBgQDvCKFrV5lpAnTMd4yH\nL/Po9tCwNXzjjTdb+Fby3ejE2l+EQ0X2etdRQU+fp/04rWHF3lMcs2EFxl7ldgSi\nqLoOIhQ15tS8hJLMbuTYQ3QLggSwIpqb5CGAtmAq1knVXNd5Pj60shLcxQKraMy9\n1dOfhjvuDVi8ZZHRIa34jHzsWQKBgQDDvIDJIhehldLSKuLz/xL5ttqfoffmT90N\nXG5btt3llnYwbQwACjuRVZO3+MZsI/Hqtm4wTCsjKEaW63b4z2IaI4cc17NhTftb\nNUtF94fzpnVRJBuhStQDrl5PmkutIk3GbTRJ7E8bqQL3653Tn5kg9lNOTJtXlt24\nSB3lEhipoQKBgBtvYCeT3FXDJGi7Z/O0O0iH25f966GqeaoirMgfVDIT5lal6gfK\nPaBj4KGwhE3XCJvPUra+l+ozxHyNuSZ6OzCYFL3DCrPAe6DfMYDo7Q7NE4Cr2BcA\nbh/5zrvb8Il+qHSQAl52+ddA/XdzBdzcB/gNTh+ahI7LEZtxRCh853GxAoGBALsz\nUtyKjZ1N5HZ669o+LxDC8C7SQnx0D09TAn0W1PxaPaks8dgr8TKbbQ77kBInApzf\nY10vy+XxBCodAwkNlp63MebE6Vt7sJVX0CkXh1/g6Lz00rQdE859eteZEx1//HB1\nSxgUOMiUiTFBmA2oy1Q6Igx1ufA4as9vsZ+/AfVhAoGBAMgiql3jy2YPjieJt/wL\nT9AruOb1rRe2E8yAag7AotOApH3Na3T7Y/TLbfk+DxgftsQjtCe9bxc0HHrjxhr+\nQhgXUfAtsYZH+6AYB651vCVJ6l6A+Dgn7NxWFY6FOB3D+mcnR95jkC7KKQlNkaE0\njPzWjDDy6GtwwBVRQNoOSs5K\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-1f4td@korean-food-merchandise.iam.gserviceaccount.com",
+    "client_id": "111646360663392589278",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1f4td%40korean-food-merchandise.iam.gserviceaccount.com"
+  }
+  

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/header'); %>
+    <%- include('../partials/navbar'); %>
+</head>
+
+<div class="mx-auto max-w-3xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+    <h2 class="text-5xl font-sans font-family: -apple-system, text-[#7978FF], font-bold tracking-wide text-center">WELCOME TO KOREAN MART</h2>
+
+<body style ="background-color:#FFF5E4", width="100%"></body-style>
+    <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+        <div class="container">
+            <div class="row">
+                <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+                    <% for(var index=0; index < itemData.length; index++){ %> 
+                        <div class="col s6">
+                            <a href="/item/<%= itemData[index].id %>">
+                                <div class="card center-align">
+                                    <div class="card-image">
+                                        <img src="<%= itemData[index].data()['photoURL'] %>" style="width:220px;height:220px">
+                                    </div>
+
+                                    <div class="card-body" style="padding-bottom: 5px;">
+                                        <h3 class="card-title center-align">
+                                            <%= itemData[index].data()['name'] %>
+                                        </h3>
+                                        <h5>
+                                            ₱ <%=
+                                                parseFloat(itemData[index].data()['price']).toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,'
+                                                 ) %>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <% } %>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>    
+</html>

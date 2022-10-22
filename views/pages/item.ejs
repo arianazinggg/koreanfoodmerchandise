@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/header'); %>
+    <%- include('../partials/navbar'); %>
+</head>
+
+<body style ="background-color:#B8E8FC", width="100%"></body-style>
+
+    <div class="mx-auto max-w-3xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+        <h2 class="text-5xl font-sans font-family: -apple-system, text-[#7978FF], font-bold tracking-wide text-center"><%= itemData['name'] %></h2>
+            
+        <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+            <div class="col s6">
+                <div class="center-align">
+                    <div class="card-image">
+                        <img src="<%= itemData['photoURL'] %>" style="width:250px;height:250px">
+                        <span class="card-title">
+                            <%= itemData['name'] %>
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <p>₱ <%= parseFloat(itemData['price']).toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,' ) %>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
