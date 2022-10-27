@@ -20,10 +20,10 @@ fs.initializeApp({
 });
 
 const db = fs.firestore();
-const ingColl = db.collection('items');
+const itemColl = db.collection('items');
 
 app.get('/', async function (req, res) {
-    const items = await ingColl.get();
+    const items = await itemColl.get();
     let data = {
         url: req.url,
         itemData: items.docs,
@@ -38,19 +38,21 @@ app.get('/item/:itemid', async function (req, res) {
     } catch (e) {
     }
     const item_id = req.params.itemid;
-    const item_ref = ingColl.doc(item_id);
+    const item_ref = itemColl.doc(item_id);
     const doc = await item_ref.get();
-    if (!doc.exists) {
-        console.log('No such document!');
-    } else {
-        console.log('Document data:', doc.data());
-    }
-    // const items = await ingColl.get();
-    let data = {
-        url: req.url,
-        itemData: doc.data(),
-    }
-    res.render('pages/item', data);
+    let itemData = doc.data();
+    console.log(itemData);
+
+    const invent_ref = itemColl.doc(item_id).collection('inventory')
+    hist_array= []
+    await invent_ref.get().then(subCol => {
+        subCol.docs.forEach(element => {
+            hist_array.push(element.data());
+    })
+    console.log('Inventory data:', hist_array)
+
+    res.render('pages/item', {itemData, hist_array});
+    })
 });
 
 
